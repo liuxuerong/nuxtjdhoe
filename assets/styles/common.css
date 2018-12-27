@@ -1,0 +1,259 @@
+body {
+  line-height: 1;
+  font-family: "PingFang SC", simSun, "Lucida Grande", "Lucida Sans Unicode",
+    Arial;
+  color: #333;
+}
+
+i {
+  font-style: normal;
+}
+
+em {
+  font-weight: normal;
+}
+body, html, #app{
+  height: 100%;
+  background-color: #fff;
+}
+
+::-moz-placeholder {
+  font-size: 0.408889rem;
+  color: #4D4D4D;
+}
+
+:-ms-input-placeholder {
+  font-size: 0.408889rem;
+  color: #4D4D4D;
+}
+
+::-moz-placeholder {
+  font-size: 0.408889rem;
+  color: #4D4D4D;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.408889rem;
+  color: #4D4D4D;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  line-height: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.emptyBox {
+  width: 0;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important;
+}
+
+.cutOffLine {
+  width: 100%;
+  height: 10px;
+  background-color: #F5F5F5;
+}
+.cutOffLine30 {
+  width: 100%;
+  height: 30px;
+  background-color: #F5F5F5;
+}
+
+.vux-divider {
+  height: 140px !important;
+  line-height: 140px !important;
+  color: #E6E6E6 !important;
+  width: 100%;
+  font-size: 36px;
+  background-color: #F5F5F5;
+  display: block !important;
+  position: relative;
+}
+
+.vux-divider:after,
+.vux-divider:before {
+  top: 76px !important;
+  display: block !important;
+  height: 3px !important;
+  width: 380px !important;
+  background-color: #e9e9f9;
+  background-image:none !important;
+  position: absolute !important;
+}
+
+.vux-divider:before {
+  left: 2%;
+}
+
+.vux-divider:after {
+  right: 2%;
+}
+
+.weui-icon_toast.weui-loading {
+  width: 1rem !important;
+  height: 1rem !important;
+  margin-top: 80px !important;
+}
+
+.weui-toast {
+  width: 300px !important;
+  height: 300px !important;
+  top: 50% !important;
+  margin-top: -3.8em !important;
+}
+
+.vux-loading .weui-toast {
+  z-index: 999999 !important;
+}
+
+.weui-dialog {
+  width: 810px !important;
+  height: 500px !important;
+  max-width: 100% !important;
+  border-radius: 20px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.weui-dialog .weui-dialog__title {
+  color: #262626;
+  font-size: 56px;
+  font-weight: 600;
+}
+.weui-dialog .weui-dialog__hd{
+  padding-top: 107px;
+}
+.weui-dialog .weui-dialog__bd>div{
+  font-size: 40px;
+  color: #262626;
+}
+.weui-dialog .weui-dialog__btn{
+  font-size: 50px;
+}
+.weui-dialog__ft {
+  height: 150px !important;
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+}
+.weui-dialog__btn{
+  line-height: 150px;
+}
+
+.weui-dialog__btn_primary {
+  color: #BA825A !important;
+  font-size: 50px !important;
+  height: 150px !important;
+  line-height: 150px !important;
+}
+
+.weui-dialog__ft:after {
+  border-top: 0.008889rem solid #cccccc !important;
+  color: #cccccc !important;
+}
+
+.weui-mask{
+  z-index: 9999998 !important;
+}
+.weui-dialog{
+  z-index: 9999999 !important;
+}
+.mint-toast{
+  z-index: 999999 !important;
+}
+#__vconsole .vc-switch{
+  z-index: 99999999 !important;
+}
+
+
+.mint-toast-text,.weui-toast__content{
+  font-size: 0.32rem !important;
+}
+.moreTip{
+  color: #999999;
+  font-size: 40px;
+  padding-left: 200px !important;
+  padding-top: 200px !important;
+  line-height: 64px;
+  position: relative;
+  text-align: left !important;
+  min-width: 400px;
+}
+.moreTip::after{
+  content:'';
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  background:#E6E6E6;
+  left:200px;
+  top: 360px;
+  display: block;
+}
+.weui-mask_transparent{
+  z-index:9999999;
+}
+.overH{
+  overflow:hidden;
+}
+.mint-cell-wrapper{
+  padding: 0 !important;
+}
+.van-toast--default{
+  width: 500px !important;
+  height: 500px !important;
+}
+.van-loading{
+  width: 240px !important;
+  height: 240px !important;
+}
+.van-toast--default .van-toast__text{
+  font-size: 40px;
+}
+.van-overlay{
+  z-index: 99999999 !important;
+}
+.van-dialog{
+  z-index: 999999999 !important;
+}
+.van-toast{
+  z-index: 999999999 !important;
+}
+#__nuxt .van-tabs--line{
+  padding-top: 0;
+}
+#__nuxt .van-tabs__nav--line{
+  padding-bottom: 0;
+}
+#__nuxt .van-tabs--line .van-tabs__wrap{
+  height: 116px;
+  line-height: 106px;
+  padding-bottom: 10px;
+}
+#__nuxt .van-tab span{
+  height: 106px;
+  line-height: 106px;
+  font-size: 42px;
+  color: #333;
+  font-weight: 600;
+}
+#__nuxt .van-tabs__line{
+  background-color: #262626;
+  height:8px;
+  bottom:0px;
+}
